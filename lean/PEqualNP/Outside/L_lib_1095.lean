@@ -1310,3 +1310,4 @@ let wires := fun (n : Nat) (D : Fin n → Finset (Fin n)) => ∑ i, (D i).card
     (∀ j ∈ W, ¬ uniform n m D Q (Finset.univ.erase j)) →
     N ≤ n ∧ (∀ j ∈ W, m-1 ≤ readers n D j) ∧ N*(m-1) ≤ wires n D) :=
   PEqualNP.Outside.L_lib_1095_aux.main
+
